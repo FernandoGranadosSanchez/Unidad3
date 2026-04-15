@@ -69,3 +69,14 @@ podman volume prune -f
 ```batch
 podman-compose up -d --build
 ```
+
+# Changelog
+
+## [1.1.0] - 2026-04-14
+### Added
+- Nueva columna `porcentaje` en la tabla `artistas` de la base de datos MariaDB.
+- Visualización del Género Musical en la tabla de la interfaz web.
+- Modelo de datos actualizado en FastAPI para soportar el nuevo campo.
+
+### Changed
+- Actualizada la versión de la aplicación a `1.1.0` en el objeto `FastAPI`.
